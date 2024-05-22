@@ -57,6 +57,8 @@ public class LinearSearch {
 
 		}
 	}
+	
+
 public static int minNumber(int[]arr) {
 	
 	if(arr.length==0)
@@ -69,6 +71,8 @@ for(int i=1;i<arr.length;i++) {
 	
 	return min;
 }
+
+
 	public static int lnrSrchString(String str, char t) {
 		//System.out.println(str.length());
 		if(str.length()==0)
@@ -99,30 +103,8 @@ for(int i=1;i<arr.length;i++) {
 
 	}
 
-}
-(arr,target);
-           result=linearSearch(a,target);
-           
-           if(result==-1) {
-        	   System.out.println("Element not found");
-           }else {
-        	   System.out.println(result);
-           }
-            
-            
-	}
+
 	
-	public static int linearSearch(int[] arr,int target) {
-		if(arr.length==0)
-			return -1;
-		
-		for(int i=0;i<arr.length;i++) {
-			if(arr[i]==target)
-				return i;
-		}
-		
-		return -1;
-		
-	}
+	
 
 }
